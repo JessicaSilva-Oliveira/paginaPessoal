@@ -13,10 +13,15 @@ header {
 
 header p {
     margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Arial' , sans-serif;
+
 }
 header h1 {
     margin-bottom: 5px;
-    
+    font-family: 'Arial' , sans-serif;
+    font-size: 38px;
+    font-weight: 200;
 }
 
 html {
@@ -29,7 +34,8 @@ header nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-top:35px;                                                                                         margin-bottom: 20px;
+    margin-top:35px;
+    margin-bottom: 20px;
 }
 
 header nav a {
@@ -62,8 +68,10 @@ main ol {
 
 .apresentacao h2 {
     color: #007bc4;
-    font-size: 24px;
-    margin-bottom: 12px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-family: 'Arial' , sans-serif;
 }
 
 .apresentacao p {
@@ -73,9 +81,12 @@ main ol {
     margin-bottom: 20px;
 }
 
-imng {
-
-    margin-left: 20px; 
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px;
 
 }
 
@@ -90,10 +101,90 @@ imng {
 
 .card h2 {
     color: #007bc4;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 22px;                                                                                     
+    margin-top:0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Ariel' ,sans-serif;                                                                            
 }
+
+.card ol {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+form {
+    width: 100%;
+    max-width: 1000px;
+    margin: 5px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    font-family:'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input  {
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px; 
+   
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contato2 {
+    font-family: 'Arial' , sans-serif;
+    color: #007bc4;
+    margin: 45px 15px 5px 30px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bc4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #0051b3;
+}
+
+.grupo-botoes {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
 
 footer {
     background-color: #007bc4;
@@ -109,13 +200,14 @@ footer {
 
 footer p {
     margin: 0; 
-    font-size: 14px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
 }
 
 footer a {
     color: #ffffff;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 20px;
 }
                                                                                                                                                      
